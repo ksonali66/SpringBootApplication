@@ -18,4 +18,10 @@ public class ApplicationController {
 	{
 		return "sdagdagsdjgasdg";
 	}
+	
+	@GetMapping("/instacode")
+	public String servicesInsta()
+	{
+		return "WELCOME TO INSTA CODE PUNE";
+	}
 }
